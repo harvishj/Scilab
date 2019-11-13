@@ -24,6 +24,7 @@ plot(n,xn1);
 plot2d3(n,xn1);
 xlabel("T", "fontsize", 3);
 ylabel("Y", "fontsize", 3);
+title("Cosine wave 1", "fontsize", 4);
 xgrid(1);
 
 subplot(3,2,2);
@@ -31,6 +32,7 @@ plot(n,xn2);
 plot2d3(n,xn2);
 xlabel("T", "fontsize", 3);
 ylabel("Y", "fontsize", 3);
+title("Cosine wave 2", "fontsize", 4);
 xgrid(1);
 
 subplot(3,2,3);
@@ -38,6 +40,7 @@ plot(n,xn3);
 plot2d3(n,xn3);
 xlabel("T", "fontsize", 3);
 ylabel("Y", "fontsize", 3);
+title("Cosine wave 2 + Cosine wave 1", "fontsize", 4);
 xgrid(1);
 
 subplot(3,2,4);
@@ -45,6 +48,7 @@ plot(n,yn1);
 plot2d3(n,yn1);
 xlabel("T", "fontsize", 3);
 ylabel("Y", "fontsize", 3);
+title("Wave 1 + Gain", "fontsize", 4);
 xgrid(1);
 
 subplot(3,2,5);
@@ -52,6 +56,7 @@ plot(n,yn2);
 plot2d3(n,yn2);
 xlabel("T", "fontsize", 3);
 ylabel("Y", "fontsize", 3);
+title("Wave 2 + Gain", "fontsize", 4);
 xgrid(1);
 
 subplot(3,2,6);
@@ -59,4 +64,5 @@ plot(n,yn3);
 plot2d3(n,yn3);
 xlabel("T", "fontsize", 3);
 ylabel("Y", "fontsize", 3);
+title("Wave 1 + Wave 2", "fontsize", 4);
 xgrid(1);

@@ -16,3 +16,5 @@ z = dt.*conv(x,y);
 disp(z);
 
 plot2d3(z)
+title("Convoluting sine and cosine wave", "fontsize", 3);
+

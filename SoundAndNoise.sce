@@ -1,6 +1,10 @@
 clear;
 clf;
+//This program adds noise to a signal 
 
+//It plays sound and noisy wave
+
+//dt is taken as 1/22050 as that is closer to sound
 dt = 1/22050;
 
 t = 0:dt:4;

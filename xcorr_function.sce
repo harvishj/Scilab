@@ -2,6 +2,8 @@ clear;
 clf;
 clc;
 
+//This code is an example for useage of XCORR function (correlation)
+
 x = [1 2 3];
 disp(x,"This is x :");
 

@@ -18,3 +18,6 @@ xgrid(2);
 xlabel("T", "fontsize", 5);
 ylabel("X", "fontsize", 5);
 title("Line Function", "fontsize", 4);
+
+//Following code is not important
+plot(y)

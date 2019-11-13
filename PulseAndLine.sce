@@ -2,6 +2,8 @@ clf;
 clear;
 clc;
 
+//Another code of class exercise
+
 function y = pulse(st,et,value,dt);
     t = st : dt : et;
     y = value * ones(1,length(t));
