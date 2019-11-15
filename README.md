@@ -1,5 +1,9 @@
 # Scilab
-This repo contains some scilab programs which I've added as I learn them as a part of Signals and Systems course
+This repo contains some scilab programs which I've added as I learn them as a part of Signals and Systems course.
 
-# Note
-All of the Scilab documents are based on Signals and Systems only.
+# Topics
+* Inbuilt normal functions (sine, cosine)
+* Distortion and noise of inbuilt functions
+* Building your own functions for line, pulse, etc
+* Convolution and Correlation of Functions
+* Different kinds of Fast Fourier Transforms (FFT)
