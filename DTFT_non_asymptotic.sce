@@ -17,6 +17,8 @@ angle = atan(i./r);
 
 yabs = abs(y);
 
+N = length(y);
+
 w = 0 : 2*%pi/ (N-1) : 2*%pi;
 
 subplot(211);
